@@ -1,0 +1,28 @@
+#slider {
+    width: 1000px;
+    color: #fff;
+    font-family: Georgia;
+    font-size: 14px;
+}
+.header {
+    width: 488px;
+    padding: 8px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.header:hover {
+    color: #B7B7B7;
+}
+.content {
+    overflow: hidden;
+}
+.text {
+    color: white;
+    width: 900px;
+    border-top: none;
+    padding: 15px;
+    text-align: left;
+    background: #01a2a6;
+}
