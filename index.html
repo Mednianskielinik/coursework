@@ -84,11 +84,10 @@
         <div class="navbar-collapse navbar-collapse_ collapse">
           <ul class="nav navbar-nav sf-menu clearfix">
             <li class="active"><a href="index.html">Главная</a></li>
-            <li class="sub-menu sub-menu-1"><a href="patient.html">Написать нам<em></em></a>
+            <li class="sub-menu sub-menu-1"><a href="#cb">Написать нам<em></em></a>
               <ul>
-                <li><a href="patient1.html">Консультация</a></li>
-                <li><a href="patient2.html">Оставить отзыв</a></li>
-                <li><a href="#note">Обратная связь</a></li>
+                <li><a href="freecons.php">Консультация</a></li>
+                <li><a href="feedback.html">Оставить отзыв</a></li>
               </ul></li>
             <li class="sub-menu sub-menu-1"><a href="patient.html">Пациентам<em></em></a>
               <ul>
@@ -102,8 +101,7 @@
                 <li><a href="price_b.pdf">Платные услуги для граждан РБ</a></li>
               </ul></li>
             <li><a href="gallery.html">Фотогалерея</a></li>
-            <li><a href="contacts.html">События</a></li>
-            <li><a href="about.html">Игротека</a></li>
+            <li><a href="forchildren.html">Игротека</a></li>
           </ul>
         </div>
       </div>
@@ -145,7 +143,7 @@
             <div class="txt1">Позвоните</div>
             <div class="txt2">+375 162 57 41 33</div>
             <div class="txt3"><span>или</span></div>
-            <div class="txt4"><a href="#note" class="btn-default btn2">Напишите нам</a></div>
+            <div class="txt4"><a href="freecons.php" class="btn-default btn2">Напишите нам</a></div>
             <div class="txt5"><p></p>Консультация</div>
           </div>
         </div>
@@ -385,7 +383,7 @@
   </div>
 </div>
 
-<div class="review_wrapper">
+<div id = "cb" class="review_wrapper">
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
@@ -451,8 +449,8 @@
 
         <div class="quote_wrapper">
 
-          <div class="title4">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ<span></span></div>
-          <div class="title5">Все поля являются обязательными для заполнения</div>
+          <div class="title4">ПОЛУЧИТЕ ОТВЕТЫ НА ИНТЕРЕСУЮЩИЕ ВАС ВОПРОСЫ<span></span></div>
+          <div class="title5">Электронное обращение юридического лица</div>
 
           <br>
 
@@ -460,19 +458,10 @@
           <div id="fields">
             <form id="ajax-contact-form" class="form-horizontal" action="javascript:alert('success!');">
               <div class="row">
-                <div class="col-sm-6">
                   <div class="form-group">
                       <label for="inputName">First Name</label>
                       <input type="text" class="form-control" id="inputName" name="name" value="Имя" onBlur="if(this.value=='') this.value='First Name'" onFocus="if(this.value =='First Name' ) this.value=''">
                   </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                      <label for="inputLName">Last Name</label>
-                      <input type="text" class="form-control" id="inputLName" name="lname" value="Отчество" onBlur="if(this.value=='') this.value='Last Name'" onFocus="if(this.value =='Last Name' ) this.value=''">
-                  </div>
-                </div>
-              </div>
               <div class="row">
                 <div class="col-sm-6">
                   <div class="form-group">
@@ -499,6 +488,7 @@
               </div>
 
               <button type="submit" class="btn-default btn-cf-submit">Отправить</button>
+              </div>
             </form>
           </div>
 
@@ -685,6 +675,7 @@
   </div>
 </div>
 
+
 <div class="bot2_wrapper">
   <div class="container">
     <div class="copyright">&copy; 2018 VENERAMIGNO</div>
@@ -695,7 +686,6 @@
 </div>
 
 
-</div>
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
